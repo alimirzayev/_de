@@ -1,0 +1,210 @@
+.covid {
+    padding: 79px 7.91% 114px;
+    background: #EDF6FD;
+}
+
+.covidTitle {
+    margin-bottom: 24px;
+}
+
+.covidTitle span{
+    width: max-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #26EA8F, #3128FF) 1;
+}
+
+.covidTitle h3 {
+    color: #0B1B5C;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.covidContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.covidText {
+    margin-bottom: 24px;
+}
+
+.covidText p {
+    white-space: break-spaces;
+    color: #000;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.covidContentSeeAll {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.covidContentSeeAll p {
+    color: #1F1F1F;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.covidContentSeeAll i {
+    margin-left: 10px;
+}
+
+.covidContanier {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.covidCard {
+    width: 23.5%;
+}
+
+.covidCardImg {
+    position: relative;
+}
+
+.covidCardImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.covidCard p {
+    margin: 9px 0 13px;
+    color: #0B1B5C;
+    font-size: 20px;
+}
+
+.covidCard span {
+    color: #0B1B5C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.covidCardImgDuration {
+    position: absolute;
+    left: 19px;
+    bottom: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.covidCardImgDuration p {
+    color: #FFF;
+    font-size: 15.137px;
+    font-weight: 600;
+    line-height: 11.76px;
+    padding: 6px 0 0 6px;
+}
+
+.SwiperSlide {
+    width: 174px;
+    min-height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeSelfSwiper{
+    width: 100%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .covid {
+        padding: 49px 0 30px 30px;
+    }
+
+    .SwiperSlide {
+        width: 100%;
+    }
+
+    .covidTitle h3 {
+        font-size: 20px;
+    }
+
+    .covidText p {
+        white-space: inherit;
+        font-size: 14px;
+    }
+
+    .covidCard{
+        width: 100%;
+    }
+
+    .covidCard p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .covidCard span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1F1F1F;
+    }
+
+    .covidCardImgDuration {
+        position: absolute;
+        left: 10px;
+        bottom: 5px;
+    }
+    .covidContentSeeAllMobile{
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .covidContentSeeAllMobile p{
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+    .covid {
+        padding: 59px 3% 94px;
+        background: #EDF6FD;
+    }
+
+    .covidTitle h3 {
+        font-size: 25px;
+    }
+
+    .covidText p {
+        font-size: 16px;
+    }
+
+    .covidContentSeeAll p {
+        color: #1F1F1F;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .covidCard p,
+    .covidCard span{
+        font-size: 16px;
+    }
+
+    .covidCard p {
+        margin: 8px 0;
+    }
+
+    .covidCardImgDuration {
+        position: absolute;
+        left: 14px;
+        bottom: 4px;
+    }
+
+    .covidCardImgDuration p {
+        color: #FFF;
+        font-size: 13.137px;
+    }
+}

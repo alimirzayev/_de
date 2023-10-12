@@ -1,0 +1,109 @@
+.pharmacySeperator {
+  background-color: #0b1b5c;
+  padding-top: 102px;
+}
+.pharmacySeperatorImage img {
+  width: 750px;
+  height: 594px;
+  position: relative !important;
+}
+.pharmacySeperatorWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pharmacySeperatorContent {
+  margin-top: 3%;
+}
+
+.pharmacySeperatorTitle h4 {
+  width: 90%;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pharmacySeperatorTitle h4 i {
+  color: #26ea8f;
+}
+
+.pharmacySeperatorText {
+  margin: 24px 0 70px;
+}
+
+.pharmacySeperatorText p {
+  width: 60%;
+  color: #fff;
+  font-family: PolySans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.pharmacySeperatorButton button {
+  display: flex;
+  width: 371.8px;
+  height: 80.08px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45.76px;
+  background: #26ea8f;
+  outline: none;
+  border: transparent;
+  color: #0b1b5c;
+  text-align: center;
+  font-size: 22.88px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .pharmacySeperatorButton button {
+    width: 271.8px !important;
+    height: 50.08px !important;
+    font-size: 14px !important;
+
+  }
+
+  .pharmacySeperatorWrapper {
+    display: block;
+  }
+  .pharmacySeperatorImage img {
+    width: auto;
+    height: auto;
+    position: relative !important;
+    
+  }
+  .pharmacySeperatorImage {
+    width: 339px;
+    height: 269px;
+    position: relative !important;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .pharmacySeperatorTitle h4 {
+    font-size: 18px;
+  }
+  .pharmacySeperatorText p {
+    font-size: 14px;
+    line-height: normal;
+    width: 100%;
+  }
+  .pharmacySeperatorButton button {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .pharmacySeperatorContent {
+    margin-left: 30px;
+  }
+  .pharmacySeperatorText {
+    margin: 24px 0 40px;
+  }
+}

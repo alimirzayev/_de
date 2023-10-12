@@ -1,0 +1,125 @@
+.cookies {
+    padding: 0 7.91% 100px;
+}
+
+.cookiesTitle {
+    margin: 89px 0 49px;
+}
+
+.cookiesTitle h1 {
+    color: #0B1B5C;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cookiesDesc {
+    margin-bottom: 90px;
+}
+
+.cookiesDesc h2 {
+    color: #0B1B5C;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cookiesItem {
+    margin-bottom: 72px;
+}
+
+.cookiesItemTop {
+    display: flex;
+    align-items: center;
+}
+
+.cookiesItemTop input {
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
+
+.cookiesItemTop h3 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cookiesList {
+    margin-top: 26px;
+}
+
+.cookiesListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.cookiesListItemTitle {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cookiesListItemDesc {
+    padding-top: 2px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+    .cookies {
+        padding: 0 3.91% 100px;
+    }
+
+    .cookiesTitle {
+        margin: 49px 0 49px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .cookies {
+        padding: 0 20px 100px;
+    }
+
+    .cookiesTitle {
+        margin: 49px 0 49px;
+    }
+
+    .cookiesTitle h1 {
+        font-size: 25px;
+    }
+
+    .cookiesDesc {
+        margin-bottom: 60px;
+    }
+
+    .cookiesDesc h2{
+        font-size: 20px;
+    }
+
+    .cookiesItemTop h3 {
+        font-size: 18px;
+    }
+
+    .cookiesListItemTitle,
+    .cookiesListItemDesc {
+        font-size: 15px;
+    }
+    
+}

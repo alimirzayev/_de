@@ -1,0 +1,196 @@
+.myHealth {
+    background: #0B1B5C;
+    padding: 5% 7.86% 8%;
+}
+
+.myHealthWrapper {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myHealthHeading {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myHealthHeading i {
+    color: var(--primary-orange);
+    font-family: 'SuisseWorks';
+}
+
+.myHealthContent {
+    padding-left: 10%;
+}
+
+.myHealthContent h6 {
+    width: 60%;
+    font-size: 40px;
+    margin: 21px 0 23px;
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myHealthContent h6 i {
+    color: #26EA8F;
+    font-family: 'SuisseWorks';
+}
+
+.myHealthContent p {
+    width: 80%;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.myHealthContent button {
+    width: 210px;
+    height: 50px;
+    border: 2px solid #26EA8F;
+    border-radius: 36px;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.myHealthContent button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myHealthImage {
+    width: 100%;
+}
+
+.myHealthImage img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .myHealth {
+        padding: 30px 20px;
+    }
+
+    .myHealthHeading {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .myHealthWrapper {
+        margin-top: 38px;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    .myHealthContent {
+        padding-left: 0;
+    }
+
+    .myHealthContent h6 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 6px;
+        line-height: 24px;
+    }
+
+    .myHealthContent p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22.5px;
+        margin-bottom: 20px;
+    }
+
+
+    .myHealthContent button {
+        margin-bottom: 40px;
+        width: 181px;
+        height: 40px;
+        font-size: 15px;
+        color: var(--primary-blue);
+    }
+
+    .myHealthContent button a {
+        color: var(--primary-blue);
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .myHealth {
+        padding: 30px 20px;
+    }
+
+    .myHealthHeading {
+        font-size: 25px;
+    }
+
+    .myHealthWrapper {
+        margin-top: 38px;
+        justify-content: space-between;
+    }
+
+
+    .myHealthContent {
+        padding-left: 0;
+    }
+
+    .myHealthContent h6 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 6px;
+        line-height: 32px;
+    }
+
+    .myHealthContent p {
+        width: 80%;
+        font-size: 15px;
+        line-height: 22.5px;
+        margin-bottom: 20px;
+    }
+
+
+    .myHealthContent button {
+        margin-bottom: 40px;
+        width: 181px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .myHealthHeading {
+        font-size: 30px;
+    }
+
+    .myHealthContent h6 {
+        width: 50%;
+        font-size: 25px;
+        margin-bottom: 23px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    .myHealthContent p {
+        width: 65%;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+}

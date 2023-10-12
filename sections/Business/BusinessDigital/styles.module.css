@@ -1,0 +1,181 @@
+.businessDigital {
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8%;
+}
+
+.businessDigitalContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background: #E5F2FC;
+}
+
+.businessDigitalContainer div {
+    width: 50%;
+}
+
+.businessDigitalImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.businessDigitalText {
+    padding: 50px 30px;
+}
+
+.businessDigitalText h5 {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.businessDigitalText ul {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.businessDigitalText ul li {
+    font-size: 24px;
+    line-height: 29px;
+    color: #515D90;
+    margin-top: 18px;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .businessDigital {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 8%;
+    }
+
+    .businessDigitalText h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .businessDigitalText ul {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .businessDigitalText ul li {
+        font-size: 16px;
+        line-height: 19px;
+        color: #515D90;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1440px){
+    .businessDigital {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 8%;
+    }
+
+    .businessDigitalText h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .businessDigitalText ul {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .businessDigitalText ul li {
+        font-size: 16px;
+        line-height: 19px;
+        color: #515D90;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px){
+    .businessDigital {
+        margin: 5% 0;
+        padding: 0 9%;
+    }
+
+    .businessDigitalContainer {
+        flex-direction: column;
+    }
+
+    .businessDigitalImage{
+        display: none;
+    }
+
+    .businessDigitalContainer div {
+        width: 100%;
+    }
+
+    .businessDigitalText h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .businessDigitalText ul {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .businessDigitalText ul li {
+        font-size: 16px;
+        line-height: 19px;
+        color: #515D90;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px){
+    .businessDigital {
+        margin: 0;
+        padding: 0;
+        background-color:  #DBEDFB;
+    }
+
+    .businessDigitalContainer {
+        padding-top: 15px;
+        flex-direction: column;
+        background-color:  #DBEDFB;
+    }
+
+    .businessDigitalImage{
+        display: none;
+    }
+
+    .businessDigitalContainer div {
+        width: 100%;
+    }
+
+    .businessDigitalText {
+        padding: 25px 30px;
+    }
+
+    .businessDigitalText h5 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .businessDigitalText ul {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .businessDigitalText ul li {
+        font-size: 15px;
+        line-height: 18px;
+        color: #515D90;
+        margin-top: 18px;
+    }
+}

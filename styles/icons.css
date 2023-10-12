@@ -1,0 +1,138 @@
+.hamburger-icon {
+    display: none;
+    width: 36px;
+    height: 36px;
+    background: url('../assets/icons/hamburger-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.hamburger-close-icon {
+    display: none;
+    width: 36px;
+    height: 36px;
+    background: url('../assets/icons/hamburger-close-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.arrow-down-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('../assets/icons/arrow-down-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.arrow-right-icon {
+    display: block;
+    width: 20px;
+    height: 12px;
+    background: url('../assets/icons/arrow-right-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.location-top-icon {
+    display: block;
+    width: 19.92px;
+    height: 17.25px;
+    background: url('../assets/icons/location-top-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.airport-clock-icon {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url('../assets/icons/airport-clock-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.facebook-icon {
+    display: block;
+    width: 11px;
+    height: 19px;
+    background: url('../assets/icons/socials/facebook-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.instagram-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../assets/icons/socials/instagram-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.linkedin-icon {
+    display: block;
+    width: 20px;
+    height: 19px;
+    background: url('../assets/icons/socials/linkedin-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.twitter-icon {
+    display: block;
+    width: 22px;
+    height: 18px;
+    background: url('../assets/icons/socials/twitter-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.youtube-icon {
+    display: block;
+    width: 24px;
+    height: 19px;
+    background: url('../assets/icons/socials/youtube-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.green-tick-icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url('../assets/icons/green-tick-icon.svg') no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.modal-close-icon {
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: url('../assets/icons/modal-close-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.video-close-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('../assets/icons/video-close-icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.scroll-down-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url('../assets/icons/scroll-down-icon.svg') no-repeat;
+    background-size: cover;
+    border: 7px solid white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 250px) and (max-width: 1150px) {
+    .hamburger-icon {
+        display: block;
+    }
+
+    .hamburger-close-icon {
+        display: block;
+    }
+
+    .green-tick-icon {
+        font-size: 17px;
+    }
+}

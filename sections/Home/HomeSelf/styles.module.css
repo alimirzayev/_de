@@ -1,0 +1,221 @@
+.homeSelf {
+    background: linear-gradient(180deg, rgba(237, 246, 253, 0) 0%, #EDF6FD 100%);
+}
+
+.homeSelfWrapper {
+    padding: 49px 7.86% 74px;
+}
+
+.homeSelfText {
+    max-width: max-content;
+    margin-bottom: 28px;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #26EA8F, #3128FF) 1;
+}
+
+.homeSelfHeading {
+    margin-bottom: 16px;
+}
+
+.homeSelfHeading h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    white-space: break-spaces;
+}
+
+.homeSelfDesc p {
+    width: 75%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F1F;
+    white-space: break-spaces;
+}
+
+.homeSelfAll {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.homeSelfAll a {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1F1F1F;
+    cursor: pointer;
+}
+
+.homeSelfAllIcon {
+    margin-left: 12px;
+}
+
+.homeSelfContainer {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeSelfItem {
+    width: 23.5%;
+}
+
+.homeSelfItemImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.homeSelfItem p {
+    margin: 9px 0 13px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #515D90;
+}
+
+.homeSelfItem span {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1F1F1F;
+}
+
+.SwiperSlide {
+    width: 174px;
+    min-height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .HomeSelfSwiper {
+        margin-top: 36px;
+    }
+
+    .SwiperSlide {
+        width: 100%;
+    }
+
+    .homeSelfWrapper {
+        padding: 49px 0 74px 2.86%;
+    }
+
+    .homeSelfText {
+        margin-bottom: 28px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .homeSelfHeading h3 {
+        margin-bottom: 6px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .homeSelfDesc p {
+        width: 85%;
+        font-size: 12px;
+        line-height: 14px;
+        white-space: inherit;
+    }
+
+    .homeSelfAll {
+        margin-top: 12px;
+        justify-content: flex-start;
+    }
+
+    .homeSelfAll a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .homeSelfItem {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .homeSelfItem p {
+        margin: 15px 0 10px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #515D90;
+    }
+
+    .homeSelfContainer {
+        margin-top: 18px;
+    }
+
+    .homeSelfItem span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1F1F1F;
+    }
+
+    .homeSelfMobileSeeAll {
+        margin-top: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+    .homeSelfWrapper {
+        padding: 49px 2.86% 74px;
+    }
+
+    .homeSelfText {
+        margin-bottom: 28px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .homeSelfHeading h3 {
+        margin-bottom: 16px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .homeSelfDesc p {
+        width: 65%;
+        font-size: 16px;
+        line-height: 19px;
+        white-space: inherit;
+    }
+
+    .homeSelfAll {
+        margin-top: -10px;
+    }
+
+    .homeSelfAll a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .homeSelfItem p {
+        margin: 15px 0 10px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #515D90;
+    }
+
+    .homeSelfItem span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1F1F1F;
+    }
+}

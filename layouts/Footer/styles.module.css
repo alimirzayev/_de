@@ -1,0 +1,374 @@
+.footer {
+    padding: 4% 7.86%;
+    background-color: var(--primary-blue);
+}
+
+.footerLogo {
+    width: 363.87px;
+    height: 64.62px;
+}
+
+.footerLogo svg {
+    width: 100%;
+    height: 100%;
+}
+
+.footerHeading {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.footerHeading h6 {
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--primary-white);
+}
+
+.footerHeading h6 span {
+    font-family: 'SuisseWorks';
+    font-weight: 400;
+    color: var(--primary-green);
+}
+
+.footerFlex {
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footerDetails {
+    width: 100%;
+    margin: 60px 0 81px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--primary-white);
+    line-break: auto;
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+.footerDetails p {
+    font-family: 'Poly6';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 15px;
+}
+
+.footerDetails span {
+    font-family: 'Poly3';
+}
+
+.addressInfo {
+    padding-top: 15px;
+}
+
+/*! Footer Links */
+.linkItem {
+    margin-bottom: 10px;
+}
+
+.linkItem a {
+    color: var(--primary-white);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.linkItem a:hover {
+    text-decoration: underline;
+}
+
+.footerSocials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*! Footer End */
+.footerEnd {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footerEnd a:not(:last-of-type) {
+    margin-right: 42px;
+}
+
+/* Footer Pharmacy */
+.footerPharmacy .footerDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerPharmacy .footerHeading {
+    width: 100%;
+}
+
+.footerPharmacy .footerDetails {
+    width: 100%;
+}
+
+.footerSubscribe {
+    margin-top: 32px;
+}
+
+.footerSubscribe div{
+    position: relative;
+}
+
+.footerSubscribe p {
+    color: #26EA8F;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.footerSubscribe input {
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 5px;
+
+}
+
+.footerSubscribe input::placeholder{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.arrowIcon{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 220px) and (max-width: 550px) {
+    .footer {
+        padding: 4% 20px;
+    }
+
+    .footerContainer {
+        display: block;
+    }
+
+    .footerLogo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerLogo svg {
+        width: 212px;
+        height: 37px;
+    }
+
+    .footerHeading {
+        width: 100%;
+        margin: 25px 0 37px;
+        text-align: center;
+    }
+
+    .footerHeading h6 {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .footerDetails {
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 60px 0 5px;
+    }
+
+    .footerDetailsItem {
+        margin-top: 50px;
+    }
+
+    .linkItem p,
+    .footerDetailsItem p {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .linkItem a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footerLinks a,
+    .footerEnd {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footerNewsletter {
+        display: none;
+    }
+
+    .footerDetailsItem span,
+    .addressInfo span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer hr {
+        margin: 76px 0 44px;
+    }
+
+    .footerPharmacy,
+    .footerPharmacy div .footerDetails {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .footerPharmacy div .footerDetails div:nth-child(2) {
+        margin: 30px 0;
+    }
+
+    .footerEnd {
+        flex-direction: column;
+    }
+
+    .footerEndLeft {
+        order: 1;
+        margin: 37px 0;
+    }
+
+    .footerEndLeft p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1150px) {
+    .footer {
+        padding: 4% 2.86%;
+    }
+
+    .footerContainer {
+        display: block;
+    }
+
+    .footerLogo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerLogo svg {
+        width: 237px;
+        height: 42.09px;
+    }
+
+    .footerHeading {
+        width: 100%;
+        margin: 25px 0 37px;
+        text-align: center;
+    }
+
+    .footerHeading h6 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .footerDetails {
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 60px 0 5px;
+    }
+
+    .footerDetailsItem {
+        margin-top: 76px;
+    }
+
+    .footerLinks a,
+    .footerEnd {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        font-size: 10px;
+    }
+
+    .footerNewsletter {
+        display: none;
+    }
+
+    .footerDetailsItem span,
+    .addressInfo span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer hr {
+        margin: 76px 0 44px;
+    }
+
+    .footerPharmacy,
+    .footerPharmacy div .footerDetails {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .footerPharmacy div .footerDetails div:nth-child(2) {
+        margin: 30px 0;
+    }
+
+    .footerEndLeft p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .footerLogo {
+        width: 190.5px;
+        height: 33.83px;
+    }
+
+    .footerHeading h6 {
+        font-size: 48px
+    }
+
+    .footerDetails {
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .footerNewsletter {
+        display: none;
+    }
+}

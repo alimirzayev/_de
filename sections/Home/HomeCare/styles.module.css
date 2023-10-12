@@ -1,0 +1,226 @@
+.homeCare {
+    margin-top: 59px;
+    padding: 0 7.86%;
+    background: linear-gradient(to bottom, white 0%, white 70%, #DBEDFB 70%, #DBEDFB 100%);
+}
+
+.homeCareWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 40px;
+    background: #EDF6FD;
+    border-radius: 10px;
+}
+
+.homeCareContent {
+    text-align: center;
+}
+
+.homeCareText {
+    margin-bottom: 12px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.homeCareText p{
+    text-align: center;
+    max-width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #26EA8F, #3128FF) 1;
+}
+
+.homeCareHeading {
+    margin-bottom: 12px;
+}
+
+.homeCareHeading h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    white-space: break-spaces;
+}
+
+.homeCareDesc p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F1F;
+    white-space: break-spaces;
+}
+
+.homeCareContainer {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeCareItem {
+    width: 23.5%;
+}
+
+.homeCareItemImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.homeCareItem p {
+    margin: 9px 0 13px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #515D90;
+}
+
+.homeCareItem span {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1F1F1F;
+}
+
+.homeCareAll {
+    margin-top: 57px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.homeCareAll a {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1F1F1F;
+    cursor: pointer;
+}
+
+.homeCareAllIcon {
+    margin-left: 12px;
+}
+
+.HomeCareSwiper{
+    width: 100%;
+    margin-top: 36px;
+}
+
+.SwiperSlide {
+    width: 174px;
+    min-height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .SwiperSlide {
+        width: 100%;
+    }
+
+    .homeCare {
+        margin-top: 39px;
+        padding: 0 22pxpx;
+    }
+
+    .homeCareWrapper {
+        padding: 35px 11px 59px;
+    }
+
+    .homeCareText {
+        margin-bottom: 12px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .homeCareHeading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeCareHeading h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        white-space: inherit;
+        width: 80%;
+        text-align: center;
+    }
+
+    .homeCareDesc p {
+        padding: 0 20px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        white-space: inherit;
+    }
+
+    .homeCareContainer {
+        margin-top: 21px;
+    }
+
+    .homeCareItem p {
+        margin: 15px 0 10px;
+        font-size: 16px;
+        line-height: 19px;
+        min-height: 38px;
+    }
+
+    .homeCareItem{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .homeCareItem span {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+    .homeCare {
+        margin-top: 59px;
+        padding: 0 2.86%;
+    }
+
+    .homeCareWrapper {
+        padding: 35px 21px 59px;
+    }
+
+    .homeCareText {
+        margin-bottom: 12px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .homeCareHeading h3 {
+        font-size: 25px;
+        line-height: 30px;
+        white-space: inherit
+    }
+
+    .homeCareDesc p {
+        font-size: 16px;
+        line-height: 19px;
+        white-space: inherit;
+    }
+
+    .homeCareContainer {
+        margin-top: 44px;
+    }
+
+    .homeCareItem p {
+        margin: 15px 0 10px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .homeCareItem span {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

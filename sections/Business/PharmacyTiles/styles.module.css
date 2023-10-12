@@ -1,0 +1,72 @@
+.pharmacyTiles {
+    background: #E5F2FC;
+    padding: 98px 0 58px;
+}
+
+.pharmacyTilesWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pharmacyTileContent h4 {
+    color: #0B1B5C;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.pharmacyTileContent h4 i {
+    color: #0B1B5C;
+    font-family: "SuisseWorks";
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.pharmacyTileContent p {
+    width: 60%;
+    margin-top: 21px;
+    color: #0B1B5C;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.pharmacyTileStats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide div,
+.rightSide div {
+    margin-bottom: 70px;
+}
+
+.leftSide div h5,
+.rightSide div h5 {
+    color: #0B1B5C;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+
+.leftSide div p,
+.rightSide div p {
+    width: 50%;
+    color:  #0B1B5C;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.rightSide{
+    padding-left: 10%;
+}

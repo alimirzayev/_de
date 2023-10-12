@@ -1,0 +1,80 @@
+.pharmacyCircles {
+  background: #edf6fd;
+  padding: 60px 0 168px;
+}
+
+.pharmacyCirclesTitle {
+  width: 100%;
+  text-align: center;
+}
+
+.pharmacyCirclesTitle h4 {
+  color: #0b1b5c;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pharmacyCirclesContainer {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pharmacyCirclesContainer div {
+  width: 33%;
+  position: relative;
+}
+
+.pharmacyCirclesContainer div img {
+  width: 100%;
+  height: 100%;
+}
+
+.pharmacyCirclesItem h5 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #26ea8f;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pharmacyCirclesItem p {
+  margin-top: 40px;
+  color: #515d90;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .pharmacyCirclesContainer {
+    display: block;
+    text-align: -webkit-center;
+  }
+  .pharmacyCirclesContainer div {
+    width: 302px;
+    position: relative;
+  }
+  .pharmacyCirclesItem h5 {
+    top: 28%;
+    font-size: 18px;
+  }
+  .pharmacyCirclesTitle h4 {
+    font-size: 22px;
+  }
+  .pharmacyCirclesItem p {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,105 @@
+.imprint {
+    padding: 0 7.91% 100px;
+}
+
+.imprintTitle {
+    margin: 89px 0 49px;
+}
+
+.imprintTitle h1 {
+    color: #0B1B5C;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.imprintDetails div {
+    margin-top: 30px;
+}
+
+.imprint p,
+.imprint a {
+    color: #000;
+    font-size: 19px;
+    line-height: 32px;
+}
+
+.imprint h2 {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.imprintDirector {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.imprintDirector h2,
+.imprintDirector p {
+    margin-right: 10px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.imprintContact {
+    margin: 16px 0 18px;
+}
+
+.imprintContact div {
+    display: flex;
+    align-items: center;
+}
+
+.imprintContact div a {
+    color: #3128FF;
+    margin-left: 10px;
+}
+
+.link {
+    color: #3128FF !important;
+}
+
+.pressContact p {
+    margin: 25px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+    .imprint {
+        padding: 0 3.91% 100px;
+    }
+
+    .imprintTitle {
+        margin: 49px 0 49px;
+    }
+
+    .imprintTitle h1 {
+        font-size: 25px;
+    }
+
+    .imprintTitle p {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .imprintItem h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .imprintItem p {
+        font-size: 19px;
+    }
+
+    .imprintDirector h2,
+    .imprintDirector p {
+        margin-right: 10px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+}

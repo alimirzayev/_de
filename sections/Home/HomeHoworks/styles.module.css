@@ -1,0 +1,193 @@
+.howWorks {
+    padding: 5% 0;
+    background: white;
+}
+
+.howWorksHeading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.howWorksWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.howWorksItemTop {
+    display: flex;
+    align-items: center;
+}
+
+.howWorksImage {
+    width: 722px;
+    height: 700px;
+}
+
+.howWorksImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.howWorksWrapper {
+    margin-top: 90px;
+}
+
+.howWorksDesktop {
+    width: 722px;
+    height: 725px;
+    display: "flex";
+    justify-content: "center";
+    position: relative;
+}
+
+.howWorksDesktopItem{
+    width:50%;
+    position: absolute;
+
+}
+
+.howWorksDesktopItem h5{
+    font-family: 'Poly6';
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.howWorksDesktopItem p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515D90;
+}
+
+.howWorksDesktopItem1{
+    top: 24.5%;
+    left: -47.5%;
+    text-align: right;
+}
+
+.howWorksDesktopItem2{
+    top: 16.5%;
+    right: -41.5%;
+}
+
+.howWorksDesktopItem3{
+    bottom: 29.5%;
+    right: -45.5%;
+}
+
+.howWorksDesktopItem4{
+    bottom: 5.5%;
+    left: -35.5%;
+    text-align: right;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .howWorks {
+        padding: 5% 20px;
+    }
+
+    .howWorksWrapper {
+        flex-direction: column;
+    }
+
+    .howWorksHeading {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+
+    .howWorksItem {
+        margin-bottom: 40px;
+    }
+
+    .howWorksItemTopNumber {
+        width: 25px;
+        height: 25px;
+        background: rgba(49, 40, 255, 0.6);
+        border-radius: 21px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+    }
+
+    .howWorksItemTop p {
+        font-size: 25px;
+        font-family: 'Poly6';
+    }
+
+    .howWorksDesc {
+        margin-left: 37px;
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #515D90;
+    }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .howWorks {
+        padding: 5% 20px;
+    }
+
+    .howWorksWrapper {
+        justify-content: space-between;
+    }
+
+    .howWorksImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .howWorksHeading {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+
+    .howWorksItem {
+        margin-bottom: 40px;
+    }
+
+    .howWorksItemTopNumber {
+        width: 25px;
+        height: 25px;
+        background: rgba(49, 40, 255, 0.6);
+        border-radius: 21px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+    }
+
+    .howWorksItemTop p {
+        font-size: 25px;
+        font-family: 'Poly6';
+    }
+
+    .howWorksDesc {
+        width: 70%;
+        margin-left: 37px;
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #515D90;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1390px) {
+    .howWorksDesktop {
+        width: 592px;
+        height: 595px;
+    }
+}

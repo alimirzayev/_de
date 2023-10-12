@@ -1,0 +1,143 @@
+.howWorks {
+    padding: 5% 7.91%;
+    background: #EDF6FD;
+}
+
+.howWorksHeading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.howWorksHeading span{
+    width: max-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #26EA8F, #3128FF) 1;
+}
+
+.howWorksWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.howWorksItemTop {
+    display: flex;
+    align-items: center;
+}
+
+.howWorksImage {
+    width: 50%;
+}
+
+.howWorksImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.howWorksWrapper {
+    margin-top: 90px;
+}
+
+.howWorksItem {
+    margin-bottom: 40px;
+}
+
+.howWorksItemTopNumber {
+    width: 25px;
+    height: 25px;
+    background: rgba(49, 40, 255, 0.6);
+    border-radius: 21px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+
+.howWorksItemTop p {
+    font-size: 25px;
+    font-family: 'Poly6';
+}
+
+.howWorksDesc {
+    width: 60%;
+    margin-left: 37px;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515D90;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .howWorks {
+        padding: 5% 20px;
+    }
+
+    .howWorksWrapper {
+        flex-direction: column;
+    }
+
+    .howWorksHeading {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+
+    .howWorksItem {
+        margin-bottom: 40px;
+    }
+
+    .howWorksItemTopNumber {
+        width: 25px;
+        height: 25px;
+        background: rgba(49, 40, 255, 0.6);
+        border-radius: 21px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+    }
+
+    .howWorksItemTop p {
+        font-size: 25px;
+        font-family: 'Poly6';
+    }
+
+    .howWorksDesc {
+        margin-left: 37px;
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #515D90;
+    }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .howWorks {
+        padding: 5% 20px;
+    }
+
+    .howWorksWrapper {
+        justify-content: space-between;
+    }
+
+    .howWorksImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .howWorksHeading {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+
+}

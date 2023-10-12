@@ -1,0 +1,26 @@
+.btn {
+    padding: 10px 40px;
+    background: #3128ff;
+    border-radius: 35px;
+    outline: none;
+    border-color: transparent;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.24), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

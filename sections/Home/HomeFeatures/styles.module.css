@@ -1,0 +1,115 @@
+.homeServices {
+    background-color: white;
+}
+
+.homeServicesWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(-15%);
+    position: relative;
+    z-index: 55;
+}
+
+.homeServicesCard {
+    width: 24%;
+    height: 210px;
+    background: #0B1B5C;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 0 20px;
+}
+
+.homeServicesCard h2 {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Poly6';
+    font-weight: 500;
+    text-align: center;
+}
+
+.homeServicesCard p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+
+    .homeServices {
+        padding: 0 20px;
+    }
+
+    .homeServicesWrapper {
+        flex-wrap: wrap;
+        transform: translateY(-10px);
+    }
+
+    .homeServicesCard {
+        width: 48%;
+        height: 95px;
+        margin-bottom: 5px;
+        padding: 0 5px;
+    }
+
+    .homeServicesCard h2 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .homeServicesCard p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+
+    .homeServices {
+        padding: 0 20px;
+    }
+
+    .homeServicesWrapper {
+        flex-wrap: wrap;
+        transform: translateY(-10px);
+    }
+
+    .homeServicesCard {
+        width: 48%;
+        height: 108px;
+        margin-bottom: 5px;
+        padding: 0 5px;
+    }
+
+    .homeServicesCard h2 {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .homeServicesCard p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1440px) {
+    .homeServicesWrapper {
+        transform: translateY(-25%);
+    }
+
+    .homeServicesCard h2 {
+        font-size: 22px;
+    }
+
+    .homeServicesCard p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,213 @@
+.homeMain {
+    position: relative;
+    background-color: #EDF6FD;
+    height: 55vh;
+    min-height: 640px;
+    max-height: 780px;
+}
+
+.homeMainWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeMainContent {
+    padding-left: 8%;
+    padding-bottom: 5%;
+}
+
+.homeMainContentHeading {
+    margin-bottom: 20px;
+}
+
+.homeMainContentHeading h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 84px;
+}
+
+.homeMainContentHeading h1 i,
+.homeMainContentDesc p i {
+    color: #3128FF;
+    font-family: 'SuisseWorks';
+}
+
+.homeMainContentDesc {
+    width: 55%;
+    margin-bottom: 42px;
+    font-size: 30px;
+    color: #1F1F1F;
+    line-height: 36px;
+}
+
+.homeMainContentExplore {
+    width: 210px;
+    height: 50px;
+    background-image: linear-gradient(90deg, 0%, 100%);
+    background: linear-gradient(#EDF6FD,
+            #EDF6FD) padding-box,
+        linear-gradient(to left, #3128FF, #26EA8F) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.homeMainContentExplore:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.homeMainContentButtons {
+    display: flex;
+    align-items: center;
+}
+
+.homeMainContentButtons svg {
+    cursor: pointer;
+}
+
+.homeMainImage {
+    width: 50%;
+    height: 100%;
+}
+
+.homeMainImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.homeMainImageCover {
+    object-fit: contain;
+}
+
+.homeMainImageTranslate {
+    transform: translate(15%, 20%);
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .homeMain {
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    .homeMainWrapper {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .homeMainContent {
+        padding: 0 25px;
+        margin-top: 30px;
+    }
+
+    .homeMainContentHeading {
+        margin-bottom: 9px;
+    }
+
+    .homeMainContentHeading h1 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 37px;
+    }
+
+    .homeMainContentDesc {
+        width: 80%;
+        margin-bottom: 32px;
+        font-size: 15px;
+        color: #1F1F1F;
+        line-height: 18px;
+    }
+
+    .homeMainContentExplore {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .homeMainContentArrow {
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .homeMainImage {
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .homeMain{
+    height: 45vh;
+    min-height: 450px;
+    }
+
+    .homeMainWrapper {
+        padding: 0 20px;
+    }
+
+    .homeMainContent {
+        padding: 0 10px;
+        margin-top: 80px;
+    }
+
+    .homeMainContentHeading {
+        margin-bottom: 9px;
+    }
+
+    .homeMainContentHeading h1 {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 37px;
+    }
+
+    .homeMainContentDesc {
+        width: 90%;
+        margin-bottom: 32px;
+        font-size: 18px;
+        color: #1F1F1F;
+        line-height: 18px;
+    }
+
+    .homeMainContentExplore {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .homeMainContentArrow {
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .homeMainImage {
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .homeMainImage img{
+        object-fit: contain !important;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1440px) {
+    .homeMainContentHeading h1 {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+    .homeMainContentDesc {
+        margin-bottom: 35px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

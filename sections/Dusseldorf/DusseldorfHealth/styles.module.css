@@ -1,0 +1,160 @@
+.health {
+    padding: 52px 7.91% 143px;
+}
+
+.healthWrapper,
+.healthContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.healthTitle{
+    margin-bottom: 24px;
+}
+
+.healthTitle h4 {
+    color: #0B1B5C;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'SuisseWorks';
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.healthContentHeading{
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #26EA8F, #3128FF) 1;
+}
+
+.healthContentHeading p{
+    color: #0B1B5C;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.healthContentText{
+    margin: 21px 0 66px;
+}
+
+.healthContentText p{
+    color: #1F1F1F;
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.healthContanier {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.healthCard {
+    width: 23.5%;
+}
+
+.healthCardImg {
+    position: relative;
+}
+
+.healthCardImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.healthCard p {
+    margin: 9px 0 13px;
+    color: #9295A1;
+    font-size: 20px;
+    line-height: normal;
+    text-align: left;
+}
+
+.HomeCareSwiper{
+    width: 100%;
+}
+
+.SwiperSlide {
+    width: 174px;
+    min-height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .health {
+        padding: 52px 0px 30px 30px;
+    }
+
+    .healthCard {
+        width: 100%;
+    }
+
+    .healthTitle h4 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .healthContentHeading p{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .healthContentText p{
+        color: #1F1F1F;
+        text-align: center;
+        font-size: 12px;
+        line-height: normal;
+        padding-right: 30px;
+    }
+
+    .healthCard p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+    .health {
+        padding: 52px 1% 83px;
+    }
+
+    .healthTitle h4 {
+        font-size: 25px;
+    }
+
+    .healthContentHeading p{
+        color: #0B1B5C;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .healthContentText{
+        margin: 21px 0 38px;
+    }
+
+    .healthContentText p{
+        font-size: 16px;
+        margin: 21px 0;
+    }
+
+    .healthContanier {
+        margin-top: 6px;
+    }
+
+    .healthCard p {
+        font-size: 16px;
+    }
+}

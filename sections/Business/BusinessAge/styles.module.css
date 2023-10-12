@@ -1,0 +1,160 @@
+.businessAge {
+    background: linear-gradient(90deg, white 35%, #0B1B5C 35%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.businessAgeWrapper {
+    padding: 112px 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.businessAgeImage {
+    width: 45%;
+}
+
+.businessAgeContent {
+    width: 40%;
+    margin: 60px 0 0 30px;
+}
+
+.businessAgeImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.businessAgeTitle h5 {
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 61px;
+    color: white;
+}
+
+.businessAgeTitle h5 span {
+    color: #26EA8F;
+    font-family: 'SuisseWorks';
+}
+
+.businessAgeText {
+    margin-top: 60px;
+}
+
+.businessAgeTextHeading {
+    font-family: 'Poly7';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.businessAgeTextList {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.businessAgeTextList i {
+    margin-right: 22px;
+    width: 32px;
+    height: 32px;
+}
+
+.businessAgeTextList p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1050px) and (max-width:1440px) {
+    .businessAgeWrapper {
+        padding: 112px 5%;
+    }
+
+    .businessAgeTitle h5 {
+        font-size: 37px;
+        line-height: 44px;
+    }
+
+    .businessAgeContent {
+        width: 40%;
+        margin: 20px 0 0 30px;
+    }
+
+    .businessAgeTextHeading,
+    .businessAgeTextList p {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (min-width: 750px) and (max-width:1150px) {
+    .businessAgeWrapper {
+        padding: 112px 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .businessAgeTitle h5 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .businessAgeTextHeading {
+        font-family: 'Poly7';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .businessAgeTextList p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width:750px) {
+    .businessAge {
+        background: #0B1B5C;
+    }
+
+    .businessAgeWrapper {
+        padding: 42px 3%;
+    }
+
+    .businessAgeImage {
+        display: none;
+    }
+
+    .businessAgeContent {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 0 30px;
+    }
+
+    .businessAgeTitle h5 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .businessAgeTextList {
+        margin-top: 19px;
+    }
+
+    .businessAgeTextHeading {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .businessAgeTextList p {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 5px;
+    }
+}

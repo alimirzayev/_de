@@ -1,0 +1,19 @@
+.servicesIcon {
+    background-color: white;
+    background-image: url('../../assets/image/b/Vector.png');
+    position: absolute;
+    z-index: 10;
+    top: -130px;
+    left: 40%;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.servicesIcon svg {
+    background: white;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+}

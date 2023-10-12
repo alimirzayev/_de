@@ -1,0 +1,323 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.businessPlatform {
+  position: relative;
+  padding: 0 0 120px;
+}
+
+.businessPlatformHeading {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(180deg, #e5f2fc 0%, rgba(229, 242, 252, 0) 100%);
+}
+
+.businessPlatformHeading h2 {
+  font-family: "Poly6";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #0b1b5c;
+  padding-bottom: 13px;
+  background: linear-gradient(#e5f2fc, #e5f2fc) padding-box,
+    linear-gradient(to left, #3128ff, #26ea8f) border-box;
+  border-bottom: 2px solid transparent;
+}
+
+.businessPlatformHeading p {
+  margin-top: 19px;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  white-space: break-spaces;
+}
+
+.businessPlatformCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.businessPlatformWrapper {
+  margin-top: 50px;
+  width: 1218px;
+  height: 1218px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotation 3.5s 1 linear;
+}
+
+.businessPlatformWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.businessPlatformItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.businessPlatformItem img {
+  width: 237.82px;
+  height: 237.82px;
+}
+
+.businessPlatformItem p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #0b1b5c;
+  margin-top: 8px;
+  white-space: break-spaces;
+}
+
+.businessPlatformItem1 {
+  top: 16%;
+}
+
+.businessPlatformItem2 {
+  top: 27%;
+  right: 25%;
+}
+
+.businessPlatformItem3 {
+  top: 27%;
+  left: 25%;
+}
+
+.businessPlatformItem4 {
+  top: 47%;
+  left: 19%;
+}
+
+.businessPlatformItem5 {
+  top: 47%;
+  right: 19%;
+}
+
+.businessPlatformItem6 {
+  bottom: 16%;
+  right: 25%;
+}
+
+.businessPlatformItem7 {
+  bottom: 15%;
+  left: 26%;
+}
+
+.businessPlatformItem8 {
+  bottom: 5%;
+}
+
+.businessPlatformScrollUp {
+  position: fixed;
+  right: 100px;
+  bottom: 25px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+  .businessPlatformWrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .businessPlatformHeading h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .businessPlatformHeading p {
+    margin-top: 19px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .businessPlatformWrapper {
+    width: 80%;
+    height: 80%;
+  }
+
+  .businessPlatformItem img {
+    width: 211.82px;
+    height: 211.82px;
+  }
+
+  .businessPlatformHeading p {
+    margin-top: 19px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .businessPlatformScrollUp {
+    position: fixed;
+    right: 40px;
+    bottom: 25px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+  .businessPlatformWrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .businessPlatformItem1 {
+    top: 22%;
+  }
+
+  .businessPlatformItem8 {
+    bottom: 10%;
+  }
+
+  .businessPlatformItem7 {
+    bottom: 20%;
+  }
+
+  .businessPlatformItem6 {
+    bottom: 20%;
+  }
+
+  .businessPlatformHeading h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .businessPlatformHeading p {
+    margin-top: 19px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .businessPlatformWrapper {
+    width: 75%;
+    height: 75%;
+  }
+
+  .businessPlatformItem img {
+    width: 102.82px;
+    height: 102.82px;
+  }
+
+  .businessPlatformItem p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .businessPlatformScrollUp {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+  .businessPlatform {
+    position: relative;
+    padding: 0 0 60px;
+  }
+
+  .businessPlatformHeading {
+    padding-top: 36px;
+  }
+
+  .businessPlatformHeading h2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #0b1b5c;
+    background: none;
+    border-bottom: 0px solid transparent;
+  }
+
+  .businessPlatformHeading p {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .businessPlatformWrapper {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background: #f5fafe;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    padding: 0 22px;
+  }
+
+  .businessPlatformBg {
+    display: none;
+    animation: rotation 2s infinite linear;
+  }
+
+  .businessPlatformItem {
+    margin-top: 20px;
+    padding: 8px 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-align: inherit;
+    position: static;
+    background: #dbedfb;
+    border-radius: 5px;
+  }
+
+  .businessPlatformItem img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .businessPlatformItem p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-left: 24px;
+    white-space: inherit;
+  }
+
+  .businessPlatformScrollUp {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .businessPlatformItem {
+    width: 80%;
+  }
+  .businessPlatformHeading p {
+    font-size: 14px;
+    width: 80%;
+  }
+  .businessPlatformItem p {
+    text-align: start;
+  }
+}

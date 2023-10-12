@@ -1,0 +1,124 @@
+.tou {
+    padding: 0 7.91% 100px;
+}
+
+.touTitle {
+    margin: 89px 0 49px;
+}
+
+.touTitle h1 {
+    color: #0B1B5C;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.tou h2 {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 25px 0 15px;
+}
+
+.tou p {
+    color: #000;
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.touWrapper {
+    margin-top: 80px;
+}
+
+.tou table {
+    border-collapse: collapse;
+}
+
+.tou table th {
+    padding: 19px 17px;
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}
+
+.tou table th:nth-child(1){
+    width: 25%;
+}
+
+.tou table td {
+    padding: 35px 17px;
+    text-align: left;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+    .tou {
+        padding: 0 3.91% 100px;
+    }
+    
+    .touTitle {
+        margin: 49px 0 49px;
+    }
+    
+    .touTitle h1{
+        font-size: 25px;
+    }
+    
+    .touTitle p{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .tou h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .tou p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .tou {
+        padding: 0 30px 100px;
+    }
+    
+    .touTitle {
+        margin: 49px 0 49px;
+    }
+    
+    .touTitle h1{
+        font-size: 20px;
+    }
+    
+    .touTitle p{
+        margin-top: 30px;
+        color: #000;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .tou h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .tou p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,49 @@
+"use client"
+import styles from './styles.module.css'
+
+import React from 'react'
+
+const MVPScrollBottom = () => {
+    const isBrowser = () => typeof window !== "undefined";
+
+    function scrollToBottom() {
+        if (!isBrowser()) return;
+        window.scrollTo({ top: 1000, behavior: "smooth" });
+    }
+
+    return (
+        <div className={styles.servicesIcon}>
+            <svg
+                onClick={scrollToBottom}
+                width="112"
+                height="111"
+                viewBox="0 0 112 111"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M55.6918 110.713C86.4244 110.713 111.338 86.0892 111.338 55.7142C111.338 25.3392 86.4244 0.715332 55.6918 0.715332C24.9592 0.715332 0.0454102 25.3392 0.0454102 55.7142C0.0454102 86.0892 24.9592 110.713 55.6918 110.713Z"
+                    fill="#0B1B5C"
+                />
+                <g clip-path="url(#clip0_707_2104)">
+                    <path
+                        d="M56.0159 75.0097L65.2903 65.7354C65.6793 65.4022 65.7247 64.8167 65.3914 64.4277C65.0583 64.0387 64.4728 63.9933 64.0838 64.3266C64.0475 64.3576 64.0136 64.3914 63.9826 64.4277L56.2849 72.1161L56.2849 35.3988C56.2849 34.8867 55.8696 34.4714 55.3574 34.4714C54.8452 34.4714 54.43 34.8867 54.43 35.3988L54.43 72.1161L46.7416 64.4277C46.4084 64.0387 45.8229 63.9933 45.4339 64.3266C45.0449 64.6598 44.9995 65.2452 45.3328 65.6342C45.3639 65.6705 45.3976 65.7044 45.4339 65.7354L54.7083 75.0098C55.0699 75.3693 55.6541 75.3693 56.0159 75.0097Z"
+                        fill="white"
+                    />
+                </g>
+                <defs>
+                    <clipPath id="clip0_707_2104">
+                        <rect
+                            width="40.808"
+                            height="40.808"
+                            fill="white"
+                            transform="translate(75.7661 34.4714) rotate(90)"
+                        />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    )
+}
+
+export default MVPScrollBottom

@@ -1,0 +1,158 @@
+.main {
+    background-color: #EDF6FD;
+    padding: 60px 7.91% 0;
+}
+
+.mainWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainImage {
+    width: 50%;
+}
+
+.mainImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainContentHeading h1 {
+    white-space: break-spaces;
+    font-size: 50px;
+    line-height: 51px;
+    font-weight: 400;
+}
+
+.mainContentText {
+    margin: 32px 0 47px;
+}
+
+.mainContentText p {
+    white-space: break-spaces;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.mainContentButtons {
+    display: flex;
+    align-items: center;
+}
+
+.mainBookNow {
+    width: 210px;
+    height: 50px;
+    background-image: linear-gradient(90deg, 0%, 100%);
+    background: linear-gradient(#EDF6FD,
+            #EDF6FD) padding-box,
+        linear-gradient(to left, #3128FF, #26EA8F) border-box;
+    border-radius: 50em;
+    border: 3px solid transparent;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    margin-right: 35px;
+    transition: 0.3s;
+}
+
+.mainExplore {
+    display: flex;
+    align-items: center;
+}
+
+.mainExplore p {
+    font-size: 18px;
+}
+
+.mainExplore svg {
+    margin-left: 7px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .main {
+        background-color: #EDF6FD;
+        padding: 15% 20px 60px;
+    }
+
+    .mainWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: inherit;
+        flex-direction: column;
+    }
+
+    .mainContentHeading h1 {
+        white-space: inherit;
+        font-size: 30px;
+        line-height: normal;
+        font-weight: 400;
+    }
+
+    .mainImage {
+        margin-top: 90px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainImage img{
+        width: 90%;
+    }
+
+    .mainContentText {
+        margin: 15px 0 38px;
+    }
+
+    .mainContentText p {
+        white-space: inherit;
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .mainBookNow {
+        width: 171px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 150%;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+    .main {
+        padding: 10% 1%;
+    }
+
+    .mainContentHeading h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .mainContentText {
+        margin: 20px 0;
+    }
+
+    .mainContentText p {
+        font-size: 18px;
+    }
+
+    .mainBookNow {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+    .mainExplore p {
+        font-size: 15px;
+    }
+
+    .mainExplore svg {
+        width: 17px;
+        height: 17px;
+        margin-left: 7px;
+    }
+}

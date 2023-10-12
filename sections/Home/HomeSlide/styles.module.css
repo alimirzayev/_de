@@ -1,0 +1,238 @@
+.homeMain {
+    background-color: #EDF6FD;
+    height: 65vh;
+    min-height: 500px;
+    max-height: 700px;
+}
+
+.homeMainSwiper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.homeMain svg {
+    position: absolute;
+    z-index: 99;
+    bottom: -60px;
+    width: 120%;
+    left: -10%;
+}
+
+.homeMainItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1150px;
+    padding: 0 0 0 7.86%;
+    overflow: hidden;
+}
+
+.homeMainContentHeading {
+    margin-bottom: 20px;
+}
+
+.homeMainContentHeading h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    white-space: break-spaces;
+}
+
+.homeMainContentHeading h1 i,
+.homeMainContentDesc p i {
+    color: #3128FF;
+    font-family: 'SuisseWorks';
+}
+
+.homeMainContentDesc {
+    width: 75%;
+    margin-bottom: 29px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1F1F1F;
+}
+
+.homeMainContentDesc p {
+    white-space: break-spaces;
+}
+
+.homeMainContentExplore {
+    width: 210px;
+    height: 50px;
+    background-image: linear-gradient(90deg, 0%, 100%);
+    background: linear-gradient(#EDF6FD,
+            #EDF6FD) padding-box,
+        linear-gradient(to left, #3128FF, #26EA8F) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    font-size: 18px;
+    line-height: 150%;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.homeMainContentExplore:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeMainContentArrow {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.homeMainContentArrow:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeMainContentButtons {
+    display: flex;
+    align-items: center;
+}
+
+.homeMainContentButtons svg {
+    cursor: pointer;
+}
+
+.homeMainImage {
+    position: relative;
+    z-index: 5;
+    width: 65%;
+    height: 100%;
+    padding-right: 7.86%;
+}
+
+.homeMainImage img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .homeMain {
+        min-width: 100%;
+    }
+
+    .homeMainItem {
+        flex-direction: column;
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .homeMainContent {
+        padding: 0 30px 5%;
+    }
+
+    .homeMainContentHeading {
+        margin-bottom: 15px;
+    }
+
+    .homeMainContentHeading h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .homeMainContentDesc {
+        width: 65%;
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .homeMainContentExplore {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: -5px;
+    }
+
+    .homeMainContentButtons i {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .homeMainImage {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .homeMain {
+        min-width: 100%;
+        height: 40vh;
+        min-height: 400px;
+        max-height: 450px;
+    }
+
+    .homeMainItem {
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .homeMainContent {
+        padding: 0 40px 5%;
+    }
+
+    .homeMainContentHeading h1 {
+        font-size: 35px;
+        line-height: 42px;
+        white-space: inherit;
+    }
+
+    .homeMainContentDesc {
+        width: 95%;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .homeMainContentExplore {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: -5px;
+    }
+
+    .homeMainContentDesc p {
+        white-space: inherit;
+    }
+
+    .homeMainContentButtons i {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .homeMainImage {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1440px) {
+
+    .homeMainContentHeading h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .homeMainContentDesc {
+        width: 65%;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .homeMainContentExplore {
+        width: 190px;
+        height: 45px;
+    }
+
+    .homeMainContentButtons i {
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
+}

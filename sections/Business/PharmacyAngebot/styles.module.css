@@ -1,0 +1,187 @@
+.pharmacyAngebot {
+  padding: 115px 0 160px;
+  background: #0b1b5c;
+}
+
+.pharmacyAngebotTitle h4 {
+  color: #e5f2fc;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.pharmacyAngebotTitle h4 i {
+  color: #fc5e4d;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.pharmacyAngebotList {
+  width: 100%;
+  padding: 150px 0;
+}
+
+.pharmacyAngebotListItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 54px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #2b3b74;
+}
+
+.pharmacyAngebotListItem h5 {
+  width: 50%;
+  color: #dbedfb;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pharmacyAngebotListItem p {
+  width: 50%;
+  color: #fff;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pharmacyAngebotHugeTitle {
+  width: 100%;
+  text-align: center;
+}
+
+.pharmacyAngebotHugeTitle h4 i {
+  color: #fc5e4d;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.pharmacyAngebotHugeTitle h4 {
+  color: #e5f2fc;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pharmacyAngebotCircles {
+  margin: 85px 0 102px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pharmacyAngebotCircle {
+  width: 25%;
+  position: relative;
+}
+
+.pharmacyAngebotCircle img {
+  width: 100%;
+  height: 100%;
+}
+
+.pharmacyAngebotCircle h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pharmacyAngebotBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pharmacyAngebotBtn a {
+  display: flex;
+  width: 371.8px;
+  height: 80.08px;
+  padding: 22px 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45.76px;
+  background: #fc5e4d;
+  color: #fafafa;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .pharmacyAngebotListItem {
+    display: block;
+    text-align: -webkit-center;
+  }
+  .pharmacyAngebotCircles {
+    display: block;
+    text-align: -webkit-center;
+  }
+  .pharmacyAngebotListItem h5 {
+    font-size: 16px;
+    text-align: start;
+    padding-bottom: 20px;
+    width: 77%;
+  }
+  .pharmacyAngebotListItem p {
+    font-size: 14px;
+    text-align: start;
+    width: 77%;
+  }
+  .pharmacyAngebotTitle h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .pharmacyAngebotList {
+    padding: 50px 0;
+  }
+  .pharmacyAngebotList {
+    padding: 50px 0;
+  }
+  .pharmacyAngebotCircles h5 {
+    font-size: 14px;
+    width: 35%;
+  }
+  .pharmacyAngebotCircle img {
+    width: 190px;
+    height: 190px;
+  }
+  .pharmacyAngebotCircle {
+    width: auto;
+  }
+  .pharmacyAngebotHugeTitle h4 {
+    font-size: 18px;
+  }
+  .pharmacyAngebotHugeTitle h4 i {
+    font-size: 18px;
+  }
+  .pharmacyAngebotTitle h4 i {
+    font-size: 18px;
+  }
+  .pharmacyAngebotBtn a {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .pharmacyAngebot {
+    padding: 115px 0 60px;
+  }
+}

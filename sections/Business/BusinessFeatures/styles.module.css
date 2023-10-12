@@ -1,0 +1,287 @@
+.businessFeature {
+    background: linear-gradient(180deg,
+            white 0%,
+            white 45%,
+            #E5F2FC 50%,
+            rgba(229, 242, 252, 0.00) 100%);
+}
+
+.businessFeatures {
+    position: relative;
+    padding: 5% 0%;
+    color: #000000;
+}
+
+.businessFeaturesTitle {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.businessFeaturesTitle p {
+    text-align: center;
+    color: var(--Navy-Blue, #0B1B5C);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: break-spaces;
+}
+
+.businessFeaturesContainer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.businessFeaturesCard {
+    width: 24%;
+    background: #FFFFFF;
+    border: 1px solid #E1E0F1;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.businessFeaturesCardTitle {
+    margin: 57px 0;
+    padding: 0 37px;
+}
+
+.businessFeaturesCardTitle p {
+    color: #0B1B5C;
+    font-size: 31.46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    white-space: break-spaces;
+}
+
+.businessFeaturesCardImage {
+    background: linear-gradient(180deg, #859FFF 0%, #EEF 100%);
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.businessFeaturesCardImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.businessFeaturesCardDesc {
+    padding: 0 46px 0 37px;
+}
+
+.businessFeaturesCardDescItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #DBEDFB;
+    padding-bottom: 40px;
+}
+
+.businessFeaturesCardDescItem p {
+    padding-top: 5px;
+    color: #0B1B5C;
+    font-size: 21.45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.429px;
+}
+
+.businessFeaturesButton {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-modal {
+    display: flex;
+    width: 360px;
+    height: 80.101px;
+    padding: 22px 50px;
+    gap: 14px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 45.76px;
+    background: #3128FF;
+    outline: none;
+    border: none;
+}
+
+.btn-modal:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .businessFeaturesIcon svg {
+        margin-top: 30px;
+        width: 68px;
+        height: 68px;
+        background: white;
+        padding: 10px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        cursor: pointer;
+    }
+
+
+    .businessFeaturesTitle {
+        width: 80%;
+    }
+
+    .businessFeaturesTitle p {
+        font-size: 15px;
+        line-height: 18px;
+        padding-left: 72px;
+    }
+
+    .businessFeaturesContainer {
+        padding: 0 4%;
+        flex-direction: column;
+    }
+
+    .businessFeaturesCard {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .businessFeaturesTitle {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .businessFeaturesTitle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+
+    .businessFeaturesCardTitle p {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .businessFeaturesCardDesc {
+        padding: 0 36px 0 13px;
+    }
+
+    .businessFeaturesButton {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .businessFeaturesTitle {
+        width: 50%;
+    }
+
+    .businessFeaturesTitle p {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .businessFeaturesCardTitle p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .businessFeaturesCardImage {
+        width: 100%;
+        height: 150px;
+    }
+
+    .businessFeaturesCardDescItem p {
+        font-size: 14px;
+    }
+
+    .businessFeaturesCardImage img {
+        object-fit: contain;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .businessFeatures {
+        padding: 5% 3%;
+    }
+
+    .businessFeaturesTitle {
+        margin-left: 7%;
+    }
+
+    .businessFeaturesTitle {
+        width: 60%;
+    }
+
+    .businessFeaturesTitle p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .businessFeaturesContainer {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .businessFeaturesCard {
+        width: 48%;
+        margin-bottom: 5%;
+    }
+
+    .businessFeaturesCardTitle p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .businessFeaturesCardImage {
+        width: 100%;
+        height: 250px;
+    }
+
+    .businessFeaturesCardDescItem p {
+        font-size: 14px;
+    }
+
+    .businessFeaturesButton {
+        margin-top: 40px;
+    }
+
+    .businessFeaturesIcon {
+        background-image: url('../../../assets/image/b/Vector.png');
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: -20px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+}

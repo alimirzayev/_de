@@ -1,0 +1,197 @@
+.businessStartHeading {
+    position: relative;
+    padding: 0 0 120px;
+}
+
+.businessStartHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, #E5F2FC 0%, rgba(229, 242, 252, 0) 100%);
+}
+
+.businessStartHeading h3 {
+    font-family: 'Poly6';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #0B1B5C;
+}
+
+.businessStartHeading h3 i {
+    font-weight: 400;
+    font-family: 'SuisseWorks';
+    color: #3128FF;
+    line-height: 52px;
+}
+
+.businessStartHeading p {
+    width: 60%;
+    margin-top: 19px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    white-space: break-spaces;
+}
+
+.businessStartContainer {
+    padding-left: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.businessStartCard {
+    margin-bottom: 8%;
+    width: 30%;
+    padding: 30px 20px;
+}
+
+.businessStartCardHeading p {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.businessStartCardLine {
+    margin: 15px 0;
+    width: 290px;
+    height: 1px;
+    background-color: #515D90;
+}
+
+.businessStartCardText {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .businessStartContainer {
+        padding-left: 5%;
+    }
+
+    .businessStartHeading h3 {
+        font-family: 'Poly6';
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .businessStartHeading p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .businessStartCardHeading p {
+        font-size: 51px;
+        line-height: 61px;
+    }
+
+    .businessStartCardText {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+    .businessStartContainer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .businessStartHeading h3 {
+        font-family: 'Poly6';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .businessStartHeading p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .businessStartContainer {
+        margin-top: -7%;
+    }
+
+    .businessStartCard {
+        margin-bottom: 8%;
+        width: 49%;
+        padding: 30px 20px;
+    }
+
+    .businessStartCardHeading p {
+        font-size: 51px;
+        line-height: 61px;
+    }
+
+    .businessStartCardText {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .businessStartCardLine {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .businessStartHeading {
+        position: relative;
+        padding: 30px 5% 120px;
+    }
+
+    .businessStartContainer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .businessStartHeading h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .businessStartHeading h3 i {
+        line-height: 24px;
+    }
+
+    .businessStartHeading p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 16px;
+        white-space: inherit;
+        margin-top: 12px;
+    }
+
+    .businessStartContainer {
+        margin-top: -22%;
+    }
+
+    .businessStartCard {
+        margin-bottom: 5%;
+        width: 49%;
+        padding: 30px 20px;
+    }
+
+    .businessStartCardHeading p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .businessStartCardText {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .businessStartCardLine {
+        width: 100%;
+    }
+
+}

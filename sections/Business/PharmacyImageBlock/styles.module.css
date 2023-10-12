@@ -1,0 +1,82 @@
+.pharmacyImageBlock {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pharmacyBlockArticleTitle {
+    margin-bottom: 30px;
+   
+}
+
+.pharmacyBlockArticleTitle h4 {
+    color: #0B1B5C;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: break-spaces;
+}
+
+.pharmacyBlockArticleTitle h4 i {
+    color: #3128FF !important;
+}
+
+.pharmacyBlockArticleText ul{
+    width: 70%;
+    margin-left: 5%;
+}
+
+.pharmacyBlockArticleText ul li {
+    color: #0B1B5C;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    
+}
+.pharmacyBlockImage{
+    width:722px;
+    height:750px;
+    position: relative !important;}
+.imageStyles{
+    width:700px;
+    height:500px;
+}
+@media screen and (min-width: 250px) and (max-width: 750px)  {
+    .pharmacyBlockArticleText ul{  
+        margin-left: 5%;}
+        .pharmacyBlockArticleTitle{
+            width: 100%;
+        }
+        .pharmacyImageBlock{
+            background-color: white;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .pharmacyImageBlock{
+            display: block;
+        }
+        .pharmacyBlockImage{
+            width:330px;
+            height:300px;
+            position: relative !important;
+            padding: 10px;
+            margin: 30px;
+        }
+        .pharmacyBlockArticleTitle h4 {
+        font-size: 24px;
+        text-align: -webkit-center;
+        margin-top: 35px;
+        padding-left: 10px;
+
+        }
+        .pharmacyBlockArticleText ul li{
+            font-size: 17px;
+            line-height: 25px;
+            margin-left: 30px;
+            width: 320px;
+        }
+      }

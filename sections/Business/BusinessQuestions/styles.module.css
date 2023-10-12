@@ -1,0 +1,104 @@
+.businessQuestions {
+    background: #E5F2FC;
+    padding: 61px 0 69px;
+}
+
+.businessQuestionsTitle h5 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #0B1B5C;
+    white-space: break-spaces;
+}
+
+.businessQuestionsButton {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.businessQuestionsButton button {
+    border-radius: 45px;
+    background: #3128FF;
+    width: 371.8px;
+    height: 80.08px;
+    justify-content: center;
+    align-items: center;
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 22.88px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .businessQuestionsTitle h5 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+
+    .businessQuestionsButton button {
+        width: 190px;
+        height: 44px;
+        background: #3128FF;
+        border-color: transparent;
+        outline: none;
+        border-radius: 36px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+    .businessQuestions {
+        background: #E5F2FC;
+        padding: 41px 0 49px;
+    }
+
+    .businessQuestionsTitle h5 {
+        font-size: 25px;
+        line-height: 150%;
+    }
+
+    .businessQuestionsButton button {
+        width: 190px;
+        height: 44px;
+        font-size: 18px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .businessQuestions {
+        background: #E5F2FC;
+        padding: 41px 30px 49px;
+    }
+
+    .businessQuestionsTitle h5 {
+        font-size: 20px;
+        line-height: 150%;
+        white-space: inherit;
+    }
+
+    .businessQuestionsButton button {
+        width: 190px;
+        height: 44px;
+        font-size: 18px;
+        line-height: 33px;
+        transition: 0.3s;
+    }
+
+    .businessQuestionsButton button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+    }
+}

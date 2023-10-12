@@ -1,0 +1,80 @@
+.faq {
+    padding: 114px 7.91% 76px;
+}
+
+.faqWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqTitle p {
+    color: #0B1B5C;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.faqHeading {
+    margin: 14px 0 30px;
+}
+
+.faqHeading h1 {
+    color: #0B1B5C;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.faqDescription p {
+    color: #0B1B5C;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faqContainer {
+    width: 65%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 1150px) {
+    .faq {
+        padding: 49px 30px 76px;
+    }
+
+    .faqWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faqWrapper div:nth-child(1){
+        width: 100%;
+    }
+
+    .faqHeading h1,
+    .faqTitle p {
+        font-size: 20px;
+    }
+
+    .faqDescription p {
+        font-size: 18px;
+    }
+
+    .faqContainer {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1350px) {
+    .faq {
+        padding: 49px 3.91% 76px;
+    }
+
+    .faqWrapper div:nth-child(1){
+        padding-left: 1em;
+        width: 100%;
+    }
+}

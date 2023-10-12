@@ -1,0 +1,90 @@
+.header {
+    background: #EDF6FD;
+    padding-top: 40px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerNav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.headerNav ul li {
+    margin-right: 50px;
+    color: #0B1B5C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.headerTopRightItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 10px;
+    background: transparent;
+    border-radius: 50em;
+    border: 1.4px solid #0B1B5C;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headerTopRightItem:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.headerTopRight div:nth-child(1) {
+    margin-right: 18px;
+    padding: 0 20px;
+}
+
+.headerTopRight div:nth-child(2) {
+    width: 50px;
+}
+
+.headerTopRightItem a,
+.headerTopRightItem p {
+    color: #515D90;
+    font-size: 18px;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerDemo {
+    margin-left: 20px;
+    border-radius: 44.8px;
+    background: #3128FF;
+    display: flex;
+    width: 196px;
+    padding: 16.8px 0;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}

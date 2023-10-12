@@ -1,0 +1,278 @@
+.homeDoctor {
+    margin: 80px 7.86% 0px;
+    scroll-behavior: smooth;
+    padding-bottom: 100px;
+}
+
+#video {
+    scroll-behavior: smooth;
+}
+
+.homeDoctorWrapper {
+    background: linear-gradient(180deg, #EDF6FD 0%, #e5f2fc00 100%);
+    padding: 60px 55px 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeDoctorContent {
+    width: 45%;
+}
+
+.homeDoctorContentHeading p {
+    font-size: 25px;
+    line-height: 30px;
+    padding-left: 9px;
+    background-image: linear-gradient(90deg, 0%, 100%);
+    background: linear-gradient(#EDF6FD,
+            #EDF6FD) padding-box,
+        linear-gradient(to top, #3128FF, #26EA8F) border-box;
+    border-left: 3px solid transparent;
+}
+
+.homeDoctorContentArea {
+    margin-top: 32px;
+}
+
+.homeDoctorContentArea h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.homeDoctorContentArea h3 i {
+    color: #3128FF;
+    font-family: 'SuisseWorks';
+}
+
+.homeDoctorContentArea p {
+    margin-top: 14px;
+    width: 95%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1f1f1f;
+}
+
+.homeDoctorImg {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeDoctorImg img {
+    width: 100%;
+    height: 100%;
+    max-width: 469px;
+    max-height: 401px;
+}
+
+.homeDoctorContentBtn {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.homeDoctorContentBtn button {
+    min-width: 227px;
+    padding: 0 10px;
+    height: 55px;
+    background: #3128FF;
+    border-radius: 36px;
+    outline: none;
+    border-color: transparent;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.homeDoctorContentBtn button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeDoctorContentBtn button:disabled {
+    opacity: 0.2;
+    cursor: auto !important;
+}
+
+.homeDoctorContentBtn button a {
+    color: white;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.homeDoctorIcon {
+    background-image: url('../../../assets/image/b/Vector.png');
+    position: absolute;
+    z-index: 10;
+    top: -130px;
+    left: 40%;
+    text-align: center;
+}
+
+.homeDoctorIcon svg {
+    background: white;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+    .homeDoctor {
+        margin: 47px 0;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .homeDoctorIcon {
+        top: -90px;
+    }
+
+    .homeDoctorIcon svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .homeDoctorWrapper {
+        margin-top: 40px;
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .homeDoctorContent {
+        width: 100%;
+    }
+
+    .homeDoctorImg {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .homeDoctorContentHeading p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .homeDoctorContentArea h3 {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .homeDoctorContentBtn button {
+        width: 181px;
+        height: 40px;
+    }
+
+    .homeDoctorContentBtn button a {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+    .homeDoctor {
+        margin: 47px 0;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    .homeDoctorIcon {
+        top: -90px;
+    }
+
+    .homeDoctorWrapper {
+        margin-top: 80px;
+        width: 100%;
+        padding: 41px 31px 33px;
+    }
+
+    .homeDoctorContent {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .homeDoctorContentArea {
+        margin-left: 0;
+        width: 95%;
+    }
+
+    .homeDoctorContentArea h3 {
+        font-size: 30px;
+    }
+
+    .homeDoctorContentArea p {
+        width: 90%;
+        font-size: 17px;
+        color: #1f1f1f;
+        line-height: 20px;
+    }
+
+    .homeDoctorContentBtn {
+        margin-top: 30px;
+    }
+
+    .homeDoctorContentBtn button {
+        width: 181px;
+        height: 40px;
+        background: #3128FF;
+        border-radius: 36px;
+        cursor: pointer;
+    }
+
+    .homeDoctorContentBtn button a {
+        font-size: 15px;
+    }
+
+    .homeDoctorImg {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeDoctorImg img {
+        max-width: 315px;
+        max-height: 269px;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1440px) {
+    .homeDoctorContentHeading p {
+        font-size: 20px;
+    }
+
+    .homeDoctorContentArea h3 {
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .homeDoctorContentArea p {
+        width: 90%;
+        margin-top: 18px;
+        font-size: 18px;
+        color: #1f1f1f;
+    }
+
+    .homeDoctorContentBtn button {
+        font-size: 18px;
+    }
+
+    .homeDoctorContentBtn button a {
+        color: white;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,54 @@
+.pharmacyTests {
+    padding: 56px 0 203px;
+    background: linear-gradient(180deg, #E5F2FC 0%, rgba(229, 242, 252, 0.00) 100%);
+}
+
+.pharmacyTestsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pharmacyTestsTitle {
+    width: 20%;
+}
+
+.pharmacyTestsTitle h4 {
+    color: #0B1B5C;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    white-space: break-spaces;
+}
+
+.pharmacyTestsItems {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pharmacyTestsItem {
+    width: 24%;
+    position: relative;
+}
+
+.pharmacyTestsItem img {
+    width: 100%;
+    height: 100%;
+}
+
+.pharmacyTestsItem p {
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #515D90;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
