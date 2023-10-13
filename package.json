@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "cookies-next": "^4.0.0",
-    "framer-motion": "^10.16.4",
-    "next": "13.5.4",
-    "react": "^18",
-    "react-dom": "^18",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "cookies-next": "^2.1.2",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.4.2",
+    "framer-motion": "^10.12.16",
+    "next": "13.4.2",
+    "nodemailer": "^6.9.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-google-recaptcha": "^3.1.0",
-    "sharp": "^0.32.6",
+    "react-modal": "^3.16.1",
+    "sharp": "^0.32.1",
     "swiper": "^9.2.4",
-    "react-modal": "^3.16.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4",
-    "typescript": "^5"
+    "swr": "^2.1.5",
+    "typescript": "5.0.4"
   }
 }
