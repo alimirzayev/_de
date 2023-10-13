@@ -1,0 +1,85 @@
+.activation {
+    height: 100vh;
+    padding: 5% 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0B1B5C;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+.activationHeading h1 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.activationHeading h1 span {
+    color: #FC5E4D;
+    font-family: 'Poly7';
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.activationButtons {
+    display: flex;
+    align-items: center;
+}
+
+.activationButtons div {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.activationButtonFirst {
+    border-radius: 38px;
+    border: 3px solid #26EA8F;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 7px 24px;
+}
+
+.activationButtonSecond {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-right: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.activationButtonSecond svg {
+    padding-left: 5px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .activation {
+        padding: 8% 26px;
+    }
+
+    .activationHeading h1 {
+        font-size: 35px;
+    }
+
+    .activation a {
+        font-size: 13px;
+    }
+
+}
