@@ -16,7 +16,7 @@
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
     "sharp": "^0.32.6",
-    "swiper": "^10.3.1",
+    "swiper": "^9.2.4",
     "react-modal": "^3.16.1"
   },
   "devDependencies": {

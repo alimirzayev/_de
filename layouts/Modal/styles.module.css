@@ -1,0 +1,228 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.1s ease-in;
+    z-index: 99999;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalContent {
+    max-width: 1200px;
+    max-height: 90%;
+    margin: 0 auto;
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: scroll;
+    padding-bottom: 40px;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background: #F5F5F5;
+}
+
+.modalItem {
+    width: 50%;
+    height: 100%;
+    background: #F5F5F5;
+    padding: 30px 0;
+    cursor: pointer;
+    transform: 0.1s;
+}
+
+.modalItemActive {
+    background: #DBEDFB;
+    transform: 0.1s;
+}
+
+.modalTitle {
+    text-align: center;
+    font-family: 'Poly6';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #0B1B5C;
+}
+
+.modalCloseButton {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    z-index: 90;
+}
+
+.modalForm {
+    margin-top: 4%;
+    width: 100%;
+    padding: 0 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalInput {
+    flex-basis: calc(50% - 10px);
+    border: none;
+    border-bottom: 1px solid #0B1B5C;
+    margin-bottom: 70px;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.modalInput:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.modalInput::placeholder {
+    color: #858EB1;
+}
+
+.modalInput:nth-child(5),
+.modalForm textarea {
+    flex-basis: 100%;
+}
+
+.modalInput:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.modalInput:-webkit-autofill:focus,
+.modalInput:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.modalSubmitButton {
+    width: 227px;
+    height: 50px;
+    background: #3128FF;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+.modalForm textarea {
+    resize: none;
+    height: 150px;
+}
+
+.modalContent::-webkit-scrollbar,
+.modalForm textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.modalContent iframe {
+    border: 0;
+    width: 100%;
+    min-height: 1200px;
+    padding: 0;
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .modalContent {
+        width: 90%;
+    }
+
+    .modalTitle {
+        font-size: 16px;
+        line-height: 24px;
+        color: #0B1B5C;
+    }
+
+    .modalCloseButton {
+        top: 40%;
+        right: 20px;
+        z-index: 90;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+    .modalContent {
+        width: 90%;
+    }
+
+    .modalTitle {
+        font-size: 15px;
+        line-height: 24px;
+        color: #0B1B5C;
+    }
+
+    .modalCloseButton {
+        top: 40%;
+        right: 20px;
+        z-index: 90;
+    }
+
+    .modalCloseButton i{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width:750px) {
+    .modalContent {
+        width: 90%;
+    }
+
+    .modalTitle {
+        font-size: 12px;
+        line-height: 24px;
+        color: #0B1B5C;
+    }
+
+    .modalInput {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .modalInput:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .modalInput:nth-child(5),
+    .modalForm textarea {
+        margin-top: 20px;
+    }
+
+    .modalCloseButton{
+        top: 10%;
+        right: 10px;
+        z-index: 90;
+    }
+
+    .modalCloseButton i{
+        width: 15px;
+        height: 15px;
+    }
+}

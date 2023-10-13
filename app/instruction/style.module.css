@@ -1,0 +1,26 @@
+.instructions {
+    padding: 7% 0 0 2.5%;
+}
+
+.heading h1 {
+    color: #11131F;
+    font-size: 38px;
+    font-style: normal;
+    font-family: 'Poly6';
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.heading p {
+    color: #11131F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 19px 0 60px;
+}
+
+.imageContainer img{
+    width: 100%;
+    max-height: 500px;
+}

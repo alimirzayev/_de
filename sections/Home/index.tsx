@@ -13,7 +13,6 @@ import HomeSlide from "./HomeSlide";
 import HomeSelf from "./HomeSelf";
 import HomeCare from "./HomeCare";
 import CookieAccept from "@/components/CookieAccept";
-import { Header } from "@/layouts";
 
 export const HomeContainer = ({
   lang,
