@@ -1,5 +1,6 @@
 .instructions {
-    padding: 7% 0 0 2.5%;
+    padding: 2% 0 0 2.5%;
+    margin-bottom: 60px;
 }
 
 .heading h1 {
@@ -17,11 +18,159 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin: 19px 0 60px;
+    margin: 19px 0 40px;
 }
 
-.imageContainer img{
-    width: 1405px;
-    /* height: 503px; */
+.imageContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 53px;
+}
+
+.imageContainer h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poly6';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
+}
+
+.desc h3 {
+    color: #11131F;
+    font-family: 'Poly6';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.desc p {
+    margin-top: 5px;
+    color: #11131F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.buttons {
+    margin: 54px 0;
+    display: flex;
+    align-items: center;
+}
+
+.buttons div:nth-child(1) {
+    margin-right: 40px;
+}
+
+.buttons div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons div p {
+    padding-left: 10px;
+    color: #0B1B5C;
+    font-family: 'Poly6';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+
+.instructions a {
+    display: flex;
+    align-items: center;
+}
+
+.instructions a p {
+    margin-right: 5px;
+    color: #0B1B5C;
+    font-family: 'Poly6';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+    .instructions {
+        padding: 5% 20px;
+    }
+
+    .heading h1 {
+        color: #11131F;
+        font-size: 30px;
+        font-style: normal;
+        font-family: 'Poly6';
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .heading p {
+        color: #11131F;
+        font-size: 20px;
+        margin: 10px 0 20px;
+    }
+
+    .imageContainer {
+        margin-bottom: 33px;
+    }
+
+    .imageContainer h2  {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .imageContainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        min-height: 170px;
+    }
+
+    .desc h3 {
+        color: #11131F;
+        font-family: 'Poly6';
+        font-size: 30px;
+    }
+
+    .desc p {
+        margin-top: 5px;
+        color: #11131F;
+        font-size: 20px;
+    }
+
+    .buttons div svg{
+        width: 22px;
+        height: 22px;
+    }
+
+    .buttons div p {
+        padding-left: 10px;
+        color: #0B1B5C;
+        font-family: 'Poly6';
+        font-size: 18px;
+        padding-top: 3px;
+    }
 }

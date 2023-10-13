@@ -8,6 +8,7 @@ const nextConfig = {
     },
     env: {
       SHOP_BASE_URL: process.env.SHOP_BASE_URL,
+      AWS_BUCKET: process.env.AWS_BUCKET
     }
   }
   

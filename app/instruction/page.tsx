@@ -1,3 +1,4 @@
+"use client"
 import { Logo } from "@/assets/svg/Logo";
 import Logo2 from "@/assets/svg/Logo2";
 import Image from "next/image";
@@ -5,21 +6,58 @@ import Link from "next/link";
 import { Fragment } from "react";
 import styles from './style.module.css'
 
-export default async function Instructions({ params }) {
+export default async function Instructions() {
   return (
     <section className={styles.instructions}>
-        <div className="container">
-            <div className={styles.heading}>
-                <h1>Bitte aktiviere dein Testkit zuerst.</h1>
+      <div className="container">
+        <div className={styles.heading}>
+          <h1>Bitte aktiviere dein Testkit zuerst.</h1>
 
-                <p>Nur aktivierte Testkits können vom Labor ausgewertet werden.</p>
-            </div>
-
-            <div className={styles.imageContainer}>
-                <h2>Video-Anleitung demnächst verfügbar</h2>
-                <Image src={require('./poster.png')} alt={'video_png'}/>
-            </div>
+          <p>Nur aktivierte Testkits können vom Labor ausgewertet werden.</p>
         </div>
+
+        <div className={styles.imageContainer}>
+          <h2>Video-Anleitung demnächst verfügbar</h2>
+          <Image src={require('./poster.png')} alt={'video_png'} />
+        </div>
+
+        <div className={styles.desc}>
+          <h3>Anleitung</h3>
+
+          <p>Falls du deine Anleitung nicht mehr finden kannst, findest du hier unten alle Informationen.
+          </p>
+        </div>
+
+        <div className={styles.buttons}>
+          <div onClick={() => window.open(`${process.env.AWS_BUCKET}documents/Gebrauchsanweisung.pdf`)}>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_442_5713)">
+                <path d="M30.9047 8.65981L22.7523 0.188625C22.6362 0.068125 22.4761 0 22.3089 0H10.1582C8.79842 0 7.6921 1.10588 7.6921 2.46513V11.0769H2.76791C1.75054 11.0769 0.922852 11.9044 0.922852 12.9215V22.1555C0.922852 23.1726 1.75054 24 2.76791 24H7.6921V29.5392C7.6921 30.8961 8.79842 32 10.1582 32H28.6106C29.9704 32 31.0767 30.8967 31.0767 29.5406V9.08656C31.0767 8.92744 31.015 8.7745 30.9047 8.65981ZM22.4614 1.66131L29.1538 8.61537H22.4614V1.66131ZM2.76791 22.7693C2.42916 22.7693 2.15366 22.4939 2.15366 22.1555V12.9215C2.15366 12.5831 2.42923 12.3077 2.76791 12.3077H19.3855C19.7243 12.3077 19.9998 12.5831 19.9998 12.9215V22.1555C19.9998 22.4939 19.7242 22.7693 19.3855 22.7693H2.76791ZM29.8459 29.5406C29.8459 30.2181 29.2917 30.7693 28.6105 30.7693H10.1582C9.47704 30.7693 8.92285 30.2175 8.92285 29.5392V24H19.3855C20.4029 24 21.2306 23.1726 21.2306 22.1555V12.9215C21.2306 11.9044 20.4029 11.0769 19.3855 11.0769H8.92285V2.46513C8.92285 1.78444 9.47704 1.23075 10.1582 1.23075H21.2305V9.23075C21.2305 9.57063 21.5061 9.84612 21.8459 9.84612H29.8459V29.5406Z" fill="#0B1B5C" />
+                <path d="M8.27992 15.6184C8.07561 15.3527 7.82198 15.1802 7.51911 15.1009C7.32198 15.048 6.89892 15.0216 6.24986 15.0216H4.53711V20.3077H5.60442V18.3137H6.30036C6.78355 18.3137 7.15255 18.2884 7.40736 18.2379C7.59486 18.197 7.77936 18.1135 7.96086 17.9873C8.14236 17.8611 8.29198 17.6874 8.4098 17.4663C8.52761 17.2452 8.58648 16.9723 8.58648 16.6478C8.58642 16.2271 8.48423 15.884 8.27992 15.6184ZM7.36586 17.0733C7.28536 17.1911 7.17417 17.2776 7.0323 17.3329C6.89042 17.3882 6.60923 17.4159 6.18855 17.4159H5.60442V15.9159H6.12005C6.50467 15.9159 6.76067 15.9279 6.88805 15.9519C7.06111 15.9832 7.20417 16.0613 7.31711 16.1863C7.43011 16.3113 7.48661 16.47 7.48661 16.6622C7.48667 16.8185 7.44636 16.9555 7.36586 17.0733Z" fill="#0B1B5C" />
+                <path d="M13.7174 16.4657C13.602 16.128 13.4337 15.8425 13.2126 15.6094C12.9915 15.3762 12.7258 15.2139 12.4157 15.1225C12.185 15.0552 11.8496 15.0216 11.4097 15.0216H9.45898V20.3077H11.4674C11.8617 20.3077 12.1765 20.2704 12.4121 20.1959C12.727 20.0949 12.977 19.9543 13.1621 19.774C13.4073 19.536 13.596 19.2247 13.7282 18.8401C13.8364 18.5252 13.8905 18.1502 13.8905 17.7151C13.8905 17.2199 13.8328 16.8035 13.7174 16.4657ZM12.6789 18.6364C12.6068 18.8732 12.5137 19.0433 12.3995 19.1466C12.2853 19.25 12.1417 19.3233 11.9686 19.3665C11.8364 19.4002 11.6212 19.417 11.3232 19.417H10.5263V15.9159H11.0059C11.4409 15.9159 11.733 15.9327 11.882 15.9664C12.0815 16.0096 12.2462 16.0925 12.376 16.2152C12.5059 16.3378 12.6068 16.5084 12.6789 16.7272C12.751 16.9459 12.7871 17.2596 12.7871 17.6683C12.7871 18.0769 12.751 18.3996 12.6789 18.6364Z" fill="#0B1B5C" />
+                <path d="M18.4265 15.9159V15.0216H14.8027V20.3077H15.87V18.0613H18.0768V17.167H15.87V15.9159H18.4265Z" fill="#0B1B5C" />
+              </g>
+              <defs>
+                <clipPath id="clip0_442_5713">
+                  <rect width="32" height="32" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <p>Vorschau</p>
+          </div>
+        </div>
+
+        <Link href={"https://web.dev.ecocare.health/web/login?web=true&account_number=000000557"} passHref={true}>
+          <p>
+            Testkit aktivieren
+          </p>
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.7071 11.7071C21.0976 11.3166 21.0976 10.6834 20.7071 10.2929L14.3431 3.92893C13.9526 3.53841 13.3195 3.53841 12.9289 3.92893C12.5384 4.31946 12.5384 4.95262 12.9289 5.34315L18.5858 11L12.9289 16.6569C12.5384 17.0474 12.5384 17.6805 12.9289 18.0711C13.3195 18.4616 13.9526 18.4616 14.3431 18.0711L20.7071 11.7071ZM2 12H20V10H2V12Z" fill="#0B1B5C" />
+          </svg>
+
+        </Link>
+      </div>
     </section>
   );
 }
